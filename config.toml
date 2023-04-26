@@ -39,35 +39,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "LinkedIn @chvmuralikumar"
 
 
-    
-
     [params.skills]
-
         enable = true
 
-        list = [
-        { title = "Skill 1",
-            items = [
-            { details = "Skill 1, item 1" },
-            { details = "Skill 1, item 2" },
-            { details = "Skill 1, item 3" }
-            ]
-        },
-        { title = "Skill 2",
-            items = [
-            { details = "Skill 2, item 1" },
-            { details = "Skill 2, item 2" },
-            { details = "Skill 2, item 3" }
-            ]
-        },
-        { title = "Skill 3",
-            items = [
-            { details = "Skill 3, item 1" },
-            { details = "Skill 3, item 2" },
-            { details = "Skill 3, item 3" }
-            ]
-        }
-        ]
+        [[params.skills.list]]
+        title = "Technical"  
+        [[params.skills.list.items]]
+        details  = "Java"
+        [[params.skills.list.items]]
+        details  = "Spring"
+        [[params.skills.list.items]]
+        details  = "Springboot"
+        [[params.skills.list.items]]
+        details  = "Hibernate"
+        [[params.skills.list]]
+        title = "Azure"
+        [[params.skills.list]]
+        title = "Professional" 
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+
 
     [params.education]
         enable = true
@@ -153,7 +146,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Kony IT Services Pvt Ltd. – Hyderabad"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
-        details = "Involved various mobile apps development with Kony Mobile Platform. | Involved in implementing custom features, UI design along with business team | Developed and integrated processes into system life cycle management"
+        details = "Involved various mobile apps development with Kony Mobile Platform."
+        [[params.experience.list.items]]
+        details = "Involved in implementing custom features, UI design along with business team"
+        [[params.experience.list.items]]
+        details = "Developed and integrated processes into system life cycle management"
 
         
 
