@@ -129,12 +129,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
         details = "Use Java/J2EE, Spring, Spring boot, Hibernate technologies to develop web applications for client server environments and add functionalities to existing applications."
-        details = Conduct user requirements analysis to design and program applications and deliver support for system enhancement."
-        details = Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework."
-        details = Involved in development of various stories and bugs of various for VCAS (Virtual Clinical Adjudication System) projects and contribute to other technical documentation activities. Developed UI and Service layer components for various modules."
-        details = Hands on experience in Azure Development, worked on Azure web application, App services, Azure storage, Azure SQL Database, Virtual machines."
-        details = Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling."
-        details = Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform."
+        details = "Conduct user requirements analysis to design and program applications and deliver support for system enhancement."
+        details = "Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework."
+        details = "Involved in development of various stories and bugs of various for VCAS (Virtual Clinical Adjudication System) projects and contribute to other technical documentation activities. Developed UI and Service layer components for various modules."
+        details = "Hands on experience in Azure Development, worked on Azure web application, App services, Azure storage, Azure SQL Database, Virtual machines."
+        details = "Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling."
+        details = "Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform."
 
         [[params.experience.list]]
         title = "SENIOR SOFTWARE ENGINEER"
