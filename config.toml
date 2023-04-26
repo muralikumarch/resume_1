@@ -44,12 +44,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list]]
         title = "Technical"  
+        [[params.skills.list.items]]
         details  = "Java | Spring | Springboot| Hibernate"
         [[params.skills.list]]
         title = "Azure"
         [[params.skills.list]]
         title = "Professional" 
-        details = "Effective communication, Team player"
+        [[params.skills.list.items]]
+        details = "Effective communication Team player"
 
     [params.education]
         enable = true
