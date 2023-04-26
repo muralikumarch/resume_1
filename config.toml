@@ -174,18 +174,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Rendered solid technical expertise in SDLC and various Java/J2EE web application developments with Core Java, JSP, Spring, JBOSS 5 and Oracle 10g."
         [[params.experience.list.items]]
-        details = Developed highly interactive and customized UI using JavaScript, HTML, JSP, and CSS to improve functionality of web applications."
+        details = "Developed highly interactive and customized UI using JavaScript, HTML, JSP, and CSS to improve functionality of web applications."
         [[params.experience.list.items]]
-        details = Performed unit testing of applications by developing and applying test cases in JUnit."
+        details = "Performed unit testing of applications by developing and applying test cases in JUnit."
 
         [[params.experience.list]]
         title = "SOFTWARE ENGINEER"
         dates = " Oct 2007 – Mar 2010"
         company = "N-Dime Technologies – Hyderabad "
         [[params.experience.list.items]]
-        details = Worked in a team of designers, developers, and business specialists.
+        details = "Worked in a team of designers, developers, and business specialists."
         [[params.experience.list.items]]
-        details = Developed reusable component libraries using J2EE technologies, Spring Framework, Tomcat, and Oracle to save time and increase productivity.
+        details = "Developed reusable component libraries using J2EE technologies, Spring Framework, Tomcat, and Oracle to save time and increase productivity."
 
 
 
