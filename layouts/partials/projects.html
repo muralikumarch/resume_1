@@ -20,7 +20,7 @@
     </div>
    
     <div class="item-content">
-      <h5 class="item-title">{{ i18n "Key Benefits: " }}</h5>
+      <h5 class="resume-section-heading mb-4">{{ i18n "Key Benefits: " }}</h5>
       <ul class="resume-list">
         {{ range .keybenefits }}
         <li>{{ with .benefit }}{{ . | markdownify }}{{ end }}</li>
@@ -29,7 +29,7 @@
     </div>
     
     <div class="item-content">
-      <h5 class="item-title">{{ i18n "Technologies: " }}</h5><p>{{ .techs }}</p>
+      <h5 class="resume-section-heading mb-5">{{ i18n "Technologies: " }}</h5><p>{{ .techs }}</p>
     </div>
     
     <div class="item-content">
