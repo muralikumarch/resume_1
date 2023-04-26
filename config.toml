@@ -194,15 +194,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "This Resume"
-        meta = "GitHub project"
-        url = "https://github.com/codewithbas/resume"
-        tagline = "A resume with a free PDF generator"
-
-        [[params.projects.list]]
         title = "Virtual Clinical Adjudication System (VCAS)"
         meta = "Parexel International"
-        url = "https://github.com/codewithbas/resume"
         tagline = "VCAS is a proprietary web-based application that facilitates central online management of adjudication activities. VCAS primary function is to provide electronic Case Report Form (eCRF) functionality and automated adjudication process via a web-based interface for clinical trial protocols. VCAS application operates in a hosted environment and can accommodate any number of users and reviewers with specific privileges based on their role."
         [[params.projects.list.keybenefits]]
         benefit = "Alleviates the need for committee members to meet in person, saving time and cost"
@@ -245,6 +238,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         roles = "Application implemented in agile software development process, activity involved in Sprint planning, reviews, and daily standup meeting"
         [[params.projects.list.items]]
         roles = "Prepared documentation like technical design documents, application configuration guide, user guide and maintenance guide."
+
+        [[params.projects.list]]
+        title = "PMED Interface Rebuild"
+        meta = "Parexel International"
+        tagline = "PMED is an electronic document management system based on OpenText Content Server. Currently PAREXEL is five major releases behind the latest version of PMED (Content Server - CS16) and no longer on a supported version. As a result, we are not realizing the full business benefits of the platform and experience frequent down time and poor system performance. This is the first project and will Stabilize and synchronize non-production environments by copying the Production environment back to DEV and Staging, convert interfaces from LAPI API to new SOAP API required by CS16, Redesign 13 workflows for optimal performance on the current version of PMED, build new environment with CS16 to allow for better performance."
+        techs = "Core Java, JSP, Servlets, Spring Framework(IOC, MVC), Hibernate, Oracle"
+        [[params.projects.list.items]]
+        roles = "In Interface release 1, building the foundation for replacing soon to be discontinued LAPI API calls to use the new PMED API façade. "
+        [[params.projects.list.items]]
+        roles = "Implemented configuration files loading mechanism based on application to easy replace properties in API."
+        [[params.projects.list.items]]
+        roles = "In release 2 is focused on the changes to the IH-PMED interface that are necessary to make this application compatible with Content Server 16, and identified LAPI based methods in use in Impact Harmony "
+        [[params.projects.list.items]]
+        roles = "Implemented creates new PMED folder applies categories and attributes provided to a node created for IH interface that are being replaced to insure upward compatibility with the Current OpenText system (CS16). "
+        [[params.projects.list.items]]
+        roles = "Writing articles in Confluence for future reference. "
+        [[params.projects.list.items]]
+        roles = "Configured Jenkins for continuous build integration tool for project maven builds and for deployment."
+        [[params.projects.list.items]]
+        roles = "Involved in bug fixing in various modules."
 
 
 
