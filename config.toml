@@ -7,7 +7,7 @@ enableGitInfo = false
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
-    author = "CH V Muralikumar"
+    author = "CH V Murali Kumar"
     description = "Muralikumar Resume"
     og_image = "better-software.png"
     twitterName = "@bascodes"
@@ -17,33 +17,34 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "CH V Muralikumar"
-        tagline = "Muralikumar Resume"
-        avatar = "bas-steins-2.jpg"
+        tagline = "Principal Java Developer"
+        avatar = "MyPhoto.jpg"
 
     [params.contact]
         enable = true
 
-        location = "Somewhere in the world"
+        location = "Hyderabad, IN"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:"
-        text = "confidential"
+        text = "+91-9989225431"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:muralikumar.ch@gmail.com"
         text = "muralikumar.ch@gmail.com"
         [[params.contact.list]]
-        icon = "fas fa-globe"
+        icon = "fas fa-linkedin"
         url = "https://www.linkedin.com/in/chvmuralikumar/"
-        text = "linkedin"
+        text = "LinkedIn @chvmuralikumar"
 
 
     [params.skills]
         enable = true
 
         [[params.skills.list]]
-        title = "Java"
+        title = "Technical"
+        name = "Java, J2EE"
         [[params.skills.list]]
         title = "Spring, Springboot, Hibernate"
         [[params.skills.list]]
