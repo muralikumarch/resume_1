@@ -34,7 +34,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         url = "mailto:muralikumar.ch@gmail.com"
         text = "muralikumar.ch@gmail.com"
         [[params.contact.list]]
-        icon = "fas fa-linkedin"
+        icon = "fa-brands fa-linkedin-in"
         url = "https://www.linkedin.com/in/chvmuralikumar/"
         text = "LinkedIn @chvmuralikumar"
 
@@ -44,7 +44,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list]]
         title = "Technical"
-        name = "Java, J2EE"
+        skill = "Java, J2EE"
         [[params.skills.list]]
         title = "Spring, Springboot, Hibernate"
         [[params.skills.list]]
