@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://resume-chvmuralikumar/"
+baseURL = "https://chvmuralikumar-resume/"
 languageCode = "en"
 title = "CH V Muralikumar"
 enableGitInfo = false
