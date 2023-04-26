@@ -10,7 +10,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     author = "CH V Murali Kumar"
     description = "Muralikumar Resume"
     og_image = "better-software.png"
-    twitterName = "@bascodes"
+    twitterName = "@muralikumarch"
     ghRepo = "https://github.com/muralikumarch/resume_1/"
     hugoRepo = "https://github.com/gohugoio/hugo/"
 
@@ -43,9 +43,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical" 
-        [[params.skills.list.items]]
-        title = "Java, Spring, Springboot, Hibernate"
+        title = "Technical"  
+        details  = "Java | Spring | Springboot| Hibernate"
         [[params.skills.list]]
         title = "Azure"
         [[params.skills.list]]
