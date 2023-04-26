@@ -18,8 +18,18 @@
     <div class="item-content">
       <p>{{ .tagline }}</p>
     </div>
+   
     <div class="item-content">
-      <h3 class="item-title">{{ i18n "Technologies: " }}</h3><p>{{ .techs }}</p>
+      <h5 class="item-title">{{ i18n "Key Benefits: " }}</h5>
+      <ul class="resume-list">
+        {{ range .keybenefits }}
+        <li>{{ with .benefit }}{{ . | markdownify }}{{ end }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    
+    <div class="item-content">
+      <h5 class="item-title">{{ i18n "Technologies: " }}</h5><p>{{ .techs }}</p>
     </div>
     
     <div class="item-content">
