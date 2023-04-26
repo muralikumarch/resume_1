@@ -43,13 +43,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
-        skill = "Java, J2EE"
-        [[params.skills.list]]
-        title = "Spring, Springboot, Hibernate"
+        title = "Technical" 
+        [[params.skills.list.items]]
+        title = "Java, Spring, Springboot, Hibernate"
         [[params.skills.list]]
         title = "Azure"
-
+        [[params.skills.list]]
+        title = "Professional" 
+        details = "Effective communication, Team player"
 
     [params.education]
         enable = true
@@ -122,20 +123,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Intern"
-        dates = "2000 - Present"
-        company = "Compuglobal Hyper Mega Net"
+        title = "PRINCIPAL JAVA DEVELOPER"
+        dates = "Sep 2014 - Present"
+        company = "Parexel International (India) Pvt Ltd – Hyderabad"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
-        details = "Took buttery notes"
+        details = "Use Java/J2EE, Spring, Spring boot, Hibernate technologies to develop web applications for client server environments and add functionalities to existing applications."
+        details = Conduct user requirements analysis to design and program applications and deliver support for system enhancement."
+        details = Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework."
+        details = Involved in development of various stories and bugs of various for VCAS (Virtual Clinical Adjudication System) projects and contribute to other technical documentation activities. Developed UI and Service layer components for various modules."
+        details = Hands on experience in Azure Development, worked on Azure web application, App services, Azure storage, Azure SQL Database, Virtual machines."
+        details = Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling."
+        details = Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform."
 
         [[params.experience.list]]
-        title = "Intern"
-        dates = "2000 - Present"
-        company = "Compuglobal Hyper Mega Net"
+        title = "SENIOR SOFTWARE ENGINEER"
+        dates = "Oct 2013 – Sep 2014"
+        company = "Kony IT Services Pvt Ltd. – Hyderabad"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
-        details = "Took buttery notes"
+        details = "Involved various mobile apps development with Kony Mobile Platform.
+                   Involved in implementing custom features, UI design along with business team
+                   Developed and integrated processes into system life cycle management"
 
         
 
