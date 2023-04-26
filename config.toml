@@ -135,9 +135,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Kony IT Services Pvt Ltd. – Hyderabad"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
-        details = "Involved various mobile apps development with Kony Mobile Platform.
-                   Involved in implementing custom features, UI design along with business team
-                   Developed and integrated processes into system life cycle management"
+        details = "Involved various mobile apps development with Kony Mobile Platform. | Involved in implementing custom features, UI design along with business team | Developed and integrated processes into system life cycle management"
 
         
 
