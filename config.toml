@@ -26,11 +26,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         location = "Hyderabad, IN"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
+        icon = "fa fa-mobile-phone"
         url = "tel:"
         text = "+91-9989225431"
         [[params.contact.list]]
-        icon = "fas fa-envelope-square"
+        icon = "fa fa-envelope-open-o"
         url = "mailto:muralikumar.ch@gmail.com"
         text = "muralikumar.ch@gmail.com"
         [[params.contact.list]]
@@ -45,21 +45,33 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"  
         [[params.skills.list.items]]
-        details  = "Java"
+        details  = "Java/J2EE"
         [[params.skills.list.items]]
-        details  = "Spring"
+        details  = "Spring Framework, Spring boot"
         [[params.skills.list.items]]
-        details  = "Springboot"
+        details  = "Hibernate, JPA, JDBC, JSP, Servlet"
         [[params.skills.list.items]]
-        details  = "Hibernate"
+        details  = "MySQL, Oracle"
+        [[params.skills.list.items]]
+        details  = "PrimeFaces, JavaScript, HTML, CSS"
+        [[params.skills.list.items]]
+        details  = "Kony Mobile, Flutter, Android"
+        [[params.skills.list.items]]
+        details  = "ANT, Maven, JUnit"
         [[params.skills.list]]
-        title = "Azure"
+        title = "Microsoft Azure"
+        [[params.skills.list.items]]
+        details  = "Azure web application"
+        [[params.skills.list.items]]
+        details  = "App services, Azure storage"
+        [[params.skills.list.items]]
+        details  = "Azure SQL Database, Virtual machines"        
         [[params.skills.list]]
         title = "Professional" 
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Problem solving, Communication"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Curious, Organized, Teamwork"
 
 
     [params.education]
@@ -117,13 +129,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         level = "Fluent"
 
 
-    [params.interests]
-        enable = false
-
-        [[params.interests.list]]
-        name = "Counting Sheeps"
-
-
     [params.summary]
         enable = true
         text = "Highly motivated and experienced software professional with over 15+ years of experience in Java and Microsoft Azure. Adept at using Java/J2EE, Spring Framework, Hibernate, and various Azure services to develop and deploy secure, scalable, and high performing applications. Excellent problem-solving and communication skills with a strong ability to work in a team environment"
@@ -133,18 +138,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "PRINCIPAL JAVA DEVELOPER"
-        dates = "Sep 2014 - Present"
-        company = "Parexel International (India) Pvt Ltd – Hyderabad"
-        details = "Increased the baudrate for comic book guy"
+        title = "PRINCIPAL JAVA DEVELOPER "
+        dates = " Sep 2014 - Present"
+        company = "Parexel International (India) Pvt Ltd – Hyderabad" 
         [[params.experience.list.items]]
         details = "Use Java/J2EE, Spring, Spring boot, Hibernate technologies to develop web applications for client server environments and add functionalities to existing applications."
-        
+        [[params.experience.list.items]]
+        details = "Conduct user requirements analysis to design and program applications and deliver support for system enhancement."
+        [[params.experience.list.items]]
+        details = "Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework."
+        [[params.experience.list.items]]
+        details = "Involved in development of various stories and bugs of various for VCAS (Virtual Clinical Adjudication System) projects and contribute to other technical documentation activities. Developed UI and Service layer components for various modules."
+        [[params.experience.list.items]]
+        details = "Hands on experience in Azure Development, worked on Azure web application, App services, Azure storage, Azure SQL Database, Virtual machines."
+        [[params.experience.list.items]]
+        details = "Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling."
+        [[params.experience.list.items]]
+        details = "Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform."
+
         [[params.experience.list]]
         title = "SENIOR SOFTWARE ENGINEER"
-        dates = "Oct 2013 – Sep 2014"
-        company = "Kony IT Services Pvt Ltd. – Hyderabad"
-        details = "Increased the baudrate for comic book guy"
+        dates = " Oct 2013 – Sep 2014"
+        company = "Kony IT Services Pvt Ltd. – Hyderabad " 
         [[params.experience.list.items]]
         details = "Involved various mobile apps development with Kony Mobile Platform."
         [[params.experience.list.items]]
@@ -152,7 +167,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Developed and integrated processes into system life cycle management"
 
-        
+        [[params.experience.list]]
+        title = "SOFTWARE ENGINEER"  
+        dates = " Mar 2010 – Oct 2013"
+        company = "Wipro Technologies – Hyderabad "
+        [[params.experience.list.items]]
+        details = "Rendered solid technical expertise in SDLC and various Java/J2EE web application developments with Core Java, JSP, Spring, JBOSS 5 and Oracle 10g."
+        [[params.experience.list.items]]
+        details = Developed highly interactive and customized UI using JavaScript, HTML, JSP, and CSS to improve functionality of web applications."
+        [[params.experience.list.items]]
+        details = Performed unit testing of applications by developing and applying test cases in JUnit."
+
+        [[params.experience.list]]
+        title = "SOFTWARE ENGINEER"
+        dates = " Oct 2007 – Mar 2010"
+        company = "N-Dime Technologies – Hyderabad "
+        [[params.experience.list.items]]
+        details = Worked in a team of designers, developers, and business specialists.
+        [[params.experience.list.items]]
+        details = Developed reusable component libraries using J2EE technologies, Spring Framework, Tomcat, and Oracle to save time and increase productivity.
+
 
 
 
@@ -164,6 +198,55 @@ googleAnalytics = "UA-XXXXXXX-Y"
         meta = "GitHub project"
         url = "https://github.com/codewithbas/resume"
         tagline = "A resume with a free PDF generator"
+
+        [[params.projects.list]]
+        title = "Virtual Clinical Adjudication System (VCAS)"
+        meta = "Parexel International"
+        url = "https://github.com/codewithbas/resume"
+        tagline = "VCAS is a proprietary web-based application that facilitates central online management of adjudication activities. VCAS primary function is to provide electronic Case Report Form (eCRF) functionality and automated adjudication process via a web-based interface for clinical trial protocols. VCAS application operates in a hosted environment and can accommodate any number of users and reviewers with specific privileges based on their role."
+        [[params.projects.list.keybenefits]]
+        benefit = "Alleviates the need for committee members to meet in person, saving time and cost"
+        [[params.projects.list.keybenefits]]
+        benefit = "Enables international review committees utilizing the best physicians for a therapeutic area"
+        [[params.projects.list.keybenefits]]
+        benefit = "Reduces cycle time for review committee to perform assessments"
+        [[params.projects.list.keybenefits]]
+        benefit = "Improves data quality through use of eCRFs and online edit checks"
+        [[params.projects.list.keybenefits]]
+        benefit = "Workflow and electronic query tools within VCAS in streamlined, highly efficient review processes"
+        techs = "Core Java, JSP, Spring, Spring boot, Hibernate, Oracle, Junit, Azure Services"
+        [[params.projects.list.items]]
+        roles = "Involved in analysis, design and developing the high scalable test-driven application using Spring Framework, Springboot and Mockito/Junit"
+        [[params.projects.list.items]]
+        roles = "Involved in UI screen design for new screens along with business team. Worked on frontend UI web pages using JSP, CSS, HTML and Java Scripts"
+        [[params.projects.list.items]]
+        roles = "Conducted user requirements analysis to design and program applications and deliver support for system enhancement. Customized each project implementation based on specific sponsor requirements as business API Services / Dao using spring framework like Spring boot, IOC, Spring JUnit modules and JPA for Entity layer"
+        [[params.projects.list.items]]
+        roles = "Developed reusable component libraries to save time and increase productivity, while considering frequently requested functionalities as generic features for the VCAS Base Product."
+        [[params.projects.list.items]]
+        roles = "Worked on database queries to User Configuration Specification and Report Configuration Specifications"
+        [[params.projects.list.items]]
+        roles = "Worked on AnyPharmco is the internal study implementation of VCAS Base"
+        [[params.projects.list.items]]
+        roles = "VCAS system has a dependency on User Manager Portal. This portal manages User access privilege for each study implemented for VCAS."
+        [[params.projects.list.items]]
+        roles = "Contributed to the deployment process by building and configuring additional Ant/Maven scripts."
+        [[params.projects.list.items]]
+        roles = "Played a pivotal role as part of an agile scrum team in developing new applications using the Spring framework."
+        [[params.projects.list.items]]
+        roles = "Involved in developing various stories and fixing bugs for VCAS projects/studies and contributing to other technical documentation activities."
+        [[params.projects.list.items]]
+        roles = "Involved in the integration of the application with Azure services and configured Azure pipelines for continuous integration and deployment"
+        [[params.projects.list.items]]
+        roles = "Successfully integrated the application with Azure App Service, Azure Functions, Azure Virtual Machines for deployment and provided a secure and scalable cloud infrastructure."
+        [[params.projects.list.items]]
+        roles = "Improved the performance and stability of the application by leveraging Azure services. "
+        [[params.projects.list.items]]
+        roles = "Application implemented in agile software development process, activity involved in Sprint planning, reviews, and daily standup meeting"
+        [[params.projects.list.items]]
+        roles = "Prepared documentation like technical design documents, application configuration guide, user guide and maintenance guide."
+
+
 
 
     [params.information]
