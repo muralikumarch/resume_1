@@ -15,8 +15,18 @@
         {{ .meta }}
       </div>
     </div>
+    
     <div class="item-content">
-      <p>{{ .tagline }}</p>
+      <h3 class="item-title">{{ i18n "Technologies: " }}</h3><p>{{ .techs }}</p>
+    </div>
+    
+    <div class="item-content">
+      <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+      <ul class="resume-list">
+        {{ range .items }}
+        <li>{{ with .roles }}{{ . | markdownify }}{{ end }}</li>
+        {{ end }}
+      </ul>
     </div>
   </div>
   <!--//item-->
