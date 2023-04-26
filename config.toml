@@ -1,23 +1,23 @@
 # Page settings
 
-baseURL = "https://resume-demo.bas.work/"
+baseURL = "https://resume-chvmuralikumar/"
 languageCode = "en"
-title = "John Doe"
+title = "CH V Muralikumar"
 enableGitInfo = false
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
-    author = "John Doe"
-    description = "Demo Resume"
+    author = "CH V Muralikumar"
+    description = "Muralikumar Resume"
     og_image = "better-software.png"
     twitterName = "@bascodes"
-    ghRepo = "https://github.com/codewithbas/resume/"
+    ghRepo = "https://github.com/muralikumarch/resume_1/"
     hugoRepo = "https://github.com/gohugoio/hugo/"
 
     [params.profile]
         enable = true
-        name = "John Doe"
-        tagline = "Demo Resume"
+        name = "CH V Muralikumar"
+        tagline = "Muralikumar Resume"
         avatar = "bas-steins-2.jpg"
 
     [params.contact]
@@ -31,48 +31,73 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "confidential"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:mail@example.org"
-        text = "mail@example.org"
+        url = "mailto:muralikumar.ch@gmail.com"
+        text = "muralikumar.ch@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "https://bas.bio"
-        text = "My links on the web"
+        url = "https://www.linkedin.com/in/chvmuralikumar/"
+        text = "linkedin"
 
 
     [params.skills]
         enable = true
 
         [[params.skills.list]]
-        title = "Python"
+        title = "Java"
         [[params.skills.list]]
-        title = "Lua"
+        title = "Spring, Springboot, Hibernate"
         [[params.skills.list]]
-        title = "LISP"
+        title = "Azure"
 
 
     [params.education]
         enable = true
 
         [[params.education.list]]
-        degree = "Master of Desaster"
-        university = "University of Life"
-        dates = "1990-present"
+        degree = "Master of Computer Applications"
+        university = "Andhra University, Vishakapatnam"
+        dates = "2003-2006"
+
+        [[params.education.list]]
+        degree = "Bachelor of Science (B.Sc. CS)"
+        university = "Andhra University, Vishakapatnam"
+        dates = "2000-2003"
 
 
     [params.awards]
         enable = true
 
         [[params.awards.list]]
-        name = "Professional Scrum Master™ I"
-        body = "scrum.org"
-        date = "2018"
+        name = "Java SE 8 Programmer - OCP"
+        body = "Oracle"
+        date = "2019"
+        
+        [[params.awards.list]]
+        name = "Java Spring Framework"
+        body = "Coursera"
+        date = "2021"
+
+        [[params.awards.list]]
+        name = "Azure Developer Associate"
+        body = "Microsoft"
+        date = "2022"
+
+        [[params.awards.list]]
+        name = "Azure Solutions Architect Expert"
+        body = "Microsoft"
+        date = "2022"
+
+        [[params.awards.list]]
+        name = "Power Platform App Maker Associate"
+        body = "Microsoft"
+        date = "2022"
 
 
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "Klingon"
+        name = "Telugu"
         level = "Fluent"
 
         [[params.languages.list]]
@@ -81,7 +106,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Counting Sheeps"
@@ -89,7 +114,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "I am the 10 eggs developer you are looking for."
+        text = "Highly motivated and experienced software professional with over 15+ years of experience in Java and Microsoft Azure. Adept at using Java/J2EE, Spring Framework, Hibernate, and various Azure services to develop and deploy secure, scalable, and high performing applications. Excellent problem-solving and communication skills with a strong ability to work in a team environment"
 
 
     [params.experience]
@@ -102,6 +127,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Increased the baudrate for comic book guy"
         [[params.experience.list.items]]
         details = "Took buttery notes"
+
+        [[params.experience.list]]
+        title = "Intern"
+        dates = "2000 - Present"
+        company = "Compuglobal Hyper Mega Net"
+        details = "Increased the baudrate for comic book guy"
+        [[params.experience.list.items]]
+        details = "Took buttery notes"
+
+        
 
 
 
