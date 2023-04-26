@@ -39,19 +39,35 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "LinkedIn @chvmuralikumar"
 
 
-    [params.skills]
-        enable = true
+    
 
-        [[params.skills.list]]
-        title = "Technical"  
-        [[params.skills.list.items]]
-        details  = "Java | Spring | Springboot| Hibernate"
-        [[params.skills.list]]
-        title = "Azure"
-        [[params.skills.list]]
-        title = "Professional" 
-        [[params.skills.list.items]]
-        details = "Effective communication Team player"
+[params.skills]
+
+enable = true
+
+list = [
+  { title = "Skill 1",
+    items = [
+      { details = "Skill 1, item 1" },
+      { details = "Skill 1, item 2" },
+      { details = "Skill 1, item 3" }
+    ]
+  },
+  { title = "Skill 2",
+    items = [
+      { details = "Skill 2, item 1" },
+      { details = "Skill 2, item 2" },
+      { details = "Skill 2, item 3" }
+    ]
+  },
+  { title = "Skill 3",
+    items = [
+      { details = "Skill 3, item 1" },
+      { details = "Skill 3, item 2" },
+      { details = "Skill 3, item 3" }
+    ]
+  }
+]
 
     [params.education]
         enable = true
